@@ -1,6 +1,6 @@
 create new connection > create table > import data > power query / select query 
  
-to delete null and start_at greater than started_at - 
+# to delete null and start_at greater than started_at - 
 
 1. Delete from 
 	public."Feb_Clean_data"
@@ -22,7 +22,7 @@ to delete null and start_at greater than started_at -
 	public."Feb_Clean_data"
 	where started_at > ended_at;
 
-Update table with duration and weekday - 
+# Update table with duration and weekday - 
 
 1. Alter table public."Feb_Clean_data"
 	ADD column duration INTERVAl;
